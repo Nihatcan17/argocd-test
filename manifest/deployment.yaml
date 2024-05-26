@@ -5,7 +5,7 @@ metadata:
   labels:
     app: nginx-test
   name: nginx-test
-  namespace: argocd-test
+  namespace: default
 spec:
   replicas: 1
   selector:
